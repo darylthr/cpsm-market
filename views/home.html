@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/572f4e9a67.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <nav class="header">
+      <i class="fa-solid fa-grip-lines"></i>
+      <h3 class="title">CPSM.MARKET</h3>
+      <i class="fa-solid fa-bag-shopping"></i>
+    </nav>
+
+    <section class="content">
+      <div class="items">
+        <div class="item">
+          <img
+            src="../public/images/1.png"
+            alt="item"
+            onclick="openModal('cloth-modal')"
+          />
+          <h4>T-SHIRT 1</h4>
+          <i
+            class="fa-solid fa-add toggle-options"
+            onclick="toggleOptions(this)"
+          ></i>
+          <div class="item-options">
+            <p>
+              <i class="fa-solid fa-add"></i>
+              TALLA M
+              <i
+                class="fa-solid fa-close toggle-options"
+                onclick="toggleOptions(this)"
+              ></i>
+            </p>
+            <span>$200</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="drop-details">
+        <p>DROP 2</p>
+        <p>20 PIECES</p>
+        <p>PURCHASE 05/03/25</p>
+        <p>MADE WITH LOVE.</p>
+      </div>
+
+      <button class="next-items" type="button">
+        <i class="fa-solid fa-arrow-down"></i>
+      </button>
+    </section>
+
+    <section class="sidebar" id="account-sidebar">
+      <div class="sb-title">
+        <h3>LOGIN</h3>
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+      <form action="">
+        <input type="text" placeholder="EMAIL" />
+        <input type="password" placeholder="PASSWORD" />
+        <p>FORGOT YOUR PASSWORD ?</p>
+        <div class="btns">
+          <button type="submit">LOGIN</button>
+          <button type="submit">CREATE ACCOUNT</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="sidebar" id="cart-sidebar">
+      <div class="sb-title">
+        <i class="fa-solid fa-chevron-left"></i>
+        <h3>CART</h3>
+      </div>
+      <form action="">
+        <input type="text" placeholder="EMAIL" />
+        <input type="password" placeholder="PASSWORD" />
+        <p>FORGOT YOUR PASSWORD ?</p>
+        <div class="btns">
+          <button type="submit">LOGIN</button>
+          <button type="submit">CREATE ACCOUNT</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="../public/js/dynamic-index.js"></script>
+  </body>
+</html>

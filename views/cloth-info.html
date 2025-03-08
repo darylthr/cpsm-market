@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/572f4e9a67.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <nav class="header">
+      <i class="fa-solid fa-grip-lines"></i>
+      <h3 class="title">CPSM.MARKET</h3>
+      <i class="fa-solid fa-bag-shopping"></i>
+    </nav>
+
+    <section class="content">
+        <div class="modal-content">
+            <header class="cloth-gallery">
+              <img src="../public/images/1.png" alt="" />
+              <img src="../public/images/1.png" alt="" />
+              <img src="../public/images/1.png" alt="" />
+            </header>
+            <h4>T-SHIRT 2</h4>
+            <footer class="cloth-options">
+              <i class="fa-solid fa-add"></i>
+              <div class="cloth-info">
+                <p>TALLA M</p>
+                <span>$200</span>
+              </div>
+              <i class="fa-solid fa-close" onclick="closeModal('cloth-modal')"></i>
+            </footer>
+          </div>
+
+          <div class="drop-details">
+            <p>DROP 2</p>
+            <p>20 PIECES</p>
+            <p>PURCHASE 05/03/25</p>
+            <p>MADE WITH LOVE.</p>
+          </div>
+    </section>
+
+    <section class="sidebar" id="account-sidebar">
+        <div class="sb-title">
+          <h3>LOGIN</h3>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <form action="">
+          <input type="text" placeholder="EMAIL" />
+          <input type="password" placeholder="PASSWORD" />
+          <p>FORGOT YOUR PASSWORD ?</p>
+          <div class="btns">
+            <button type="submit">LOGIN</button>
+            <button type="submit">CREATE ACCOUNT</button>
+          </div>
+        </form>
+      </section>
+  
+      <section class="sidebar" id="cart-sidebar">
+        <div class="sb-title">
+          <i class="fa-solid fa-chevron-left"></i>
+          <h3>CART</h3>
+        </div>
+        <form action="">
+          <input type="text" placeholder="EMAIL" />
+          <input type="password" placeholder="PASSWORD" />
+          <p>FORGOT YOUR PASSWORD ?</p>
+          <div class="btns">
+            <button type="submit">LOGIN</button>
+            <button type="submit">CREATE ACCOUNT</button>
+          </div>
+        </form>
+      </section>
+
+    <script src="../public/js/dynamic-index.js"></script>
+  </body>
+</html>
